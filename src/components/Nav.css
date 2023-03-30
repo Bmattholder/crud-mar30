@@ -1,0 +1,20 @@
+.nav{
+    top: 0;
+    position: sticky;
+    padding: 1rem;
+    height: 1rem;
+    background: #577ae1;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    font-size: large;
+    color: whitesmoke;
+}
+
+.link:hover {
+    color: #4ABDAC
+}

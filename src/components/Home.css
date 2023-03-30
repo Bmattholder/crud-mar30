@@ -1,0 +1,62 @@
+select {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+option {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 5px;
+    background-color: #fff;
+}
+
+select:focus,
+option:focus {
+    outline: none;
+    box-shadow: 0 0 5px #b9ddf2;
+}
+
+select option:checked {
+    background-color: #b9ddf2;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.pagination button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.size-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

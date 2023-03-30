@@ -1,0 +1,58 @@
+.SignIn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.SignIn input[type="email"],
+.SignIn input[type="password"],
+.SignIn button {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.SignIn input[type="email"],
+.SignIn input[type="password"] {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid transparent;
+}
+
+.SignIn input[type="email"]:focus,
+.SignIn input[type="password"]:focus {
+    outline: none;
+    border-bottom: 2px solid #1e90ff;
+    transition: border-bottom 0.2s;
+}
+
+.SignIn button {
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.SignIn button:hover {
+    background-color: #0072ff;
+}
+
+.SignIn input[type="email"]::placeholder,
+.SignIn input[type="password"]::placeholder {
+    color: #808080;
+}
+
+.SignIn label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .SignIn {
+        width: 80%;
+    }
+}
